@@ -1,8 +1,20 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./App.scss";
+import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+import { Navbar } from "./components";
 
 function App() {
-  return <div className="App">sdfgdgds</div>;
+  return (
+    <div className="app">
+      <Navbar />
+      <Header />
+      <About />
+      <Skills />
+      <Work />
+      <Testimonial />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
