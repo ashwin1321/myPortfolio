@@ -10,7 +10,8 @@ const Navbar = () => {
     <div>
       <nav className="app__navbar">
         <div className="app__navbar-logo">
-          <img src={images.logo} alt="" />
+          {/* <img src={images.logo} alt="" /> */}
+          ASH<span style={{ color: "#1975e6" }}>WIN</span>
           {/* Ash<span style={{ color: "cyan" }}>win</span> */}
         </div>
         <ul className="app__navbar-links">
