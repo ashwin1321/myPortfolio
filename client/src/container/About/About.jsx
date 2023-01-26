@@ -20,7 +20,7 @@ const About = () => {
     <>
       <h2 className="head-text" style={{ margin: "2rem" }}>
         I Know That
-        <span> Good Design </span>
+        <span> Good Development </span>
         <br />
         means
         <span> Good Business</span>
